@@ -10,25 +10,25 @@ on:
         type: choice
         default: jdcloud_ipq60xx_immwrt
         options:
-          - aliyun_ap8220_immwrt
-          - cmcc_rax3000m_immwrt
-          - gemtek_w1701k_immwrt
-          - jdcloud_ax6000_immwrt
-          - jdcloud_ipq60xx_immwrt
-          - jdcloud_ipq60xx_libwrt
-          - jdcloud_ipq60xx_libwrt_kmod
-          - linksys_mx4x00_immwrt
-          - n1_immwrt
-          - qihoo_360v6_immwrt
-          - redmi_ax5_immwrt
-          - redmi_ax6_immwrt
-          - redmi_ax6_libwrt
-          - redmi_ax6000_immwrt21
-          - zn_m2_immwrt
-          - zn_m2_libwrt
-          - zn_m2_libwrt_nowifi
+        #  -         #  - aliyun_
+        #  -         #  - cmcc_ra
+        #  -         #  - gemtek_
+        #  -         #  - jdcloud_
+       #   -        #   - jdcloud_i
+      #    -       #    - jdcloud_i
+       #   -        #   - jdcloud_ipq60x
+      #    -       #    - linksys_
+      #    -       #  
+       #   -        #   - qihoo
+       #   -        #   - red
+       #   -        #   - red
+        #  -         #  - red
+      #    -       #    - redmi_ax
+       #   -        #   -
+      #    -       #    -
+      #    -       #    - zn_m2_
           - x64_immwrt
-          - zte_e8820s_lede_nowifi
+        #  -         #  - zte_e8820
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
